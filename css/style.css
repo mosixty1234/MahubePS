@@ -1,0 +1,266 @@
+body {
+    font: 15px/1.5 Calibri, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 45px;
+    background: #b3b0b3;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.dark {
+    padding: 15px;
+    background: #212020;
+    color: #a0a097;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #000000;
+    color: #59bbf3;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content {
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: rgb(174, 182, 174);
+}
+
+.footer .footer-content .about h1 span {
+    color: #9b8d96;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid #16e4ff;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover {
+    border: 1px solid rgb(241, 13, 13);
+    color: rgb(211, 25, 25);
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+    text-align: left;
+}
+
+.footer .footer-content .links ul a:hover {
+    color: rgb(240, 217, 13);
+    margin-left: 15px;
+}
+
+
+/* Header **/
+
+header {
+    background: #050200;
+    color: #899996;
+    padding-top: 35px;
+    min-height: 70px;
+    border-bottom: #a0a7a0 10px solid;
+}
+
+header a {
+    color: #7f7664;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 4px 20px 0 10px;
+}
+
+header #branding {
+    float: Left;
+    text-transform: uppercase;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float:right;
+    margin-top: 45px;
+   
+}
+
+header .highlight,
+header .current a {
+    color:#819081;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #9b6e15;
+    font-weight: bold;
+}
+
+
+/* Showcase */
+
+#showcase {
+    min-height: 79%;
+    background: url('../img/showcase.jpg');
+    text-align: center;
+    color: #efe9e9;
+}
+
+#showcase h1 {
+    margin-top: 60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 25px;
+}
+
+
+/* Newsletter */
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 65px;
+    color: #cbcbbd;
+}
+.upper{
+    font: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+#boxes .box img {
+    width: 250px;
+}
+
+
+/* Sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 70%;
+    padding: 7px;
+    margin: 0;
+    text-decoration: uppercase;
+}
+
+
+/* Main-col */
+
+article#main-col {
+    float: left;
+    width: 70%;
+    color: #e2d8d8;
+    font-size: 17px;
+    font-family: Arial
+}
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: #2d3337;
+    background-color: #aeb9bd;
+    text-align: center;
+    font-weight: Bold;
+}
+
+
+/* Media Queries */
